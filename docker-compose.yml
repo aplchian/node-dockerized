@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  main-service: 
+    build: .
+    volumes:
+      - ./:/src
+    command: npm run dev
+    ports:
+      - 1337:1337

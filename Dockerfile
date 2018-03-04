@@ -5,5 +5,5 @@ ADD . /src
 
 EXPOSE 1337
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
 

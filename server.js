@@ -4,7 +4,8 @@ const server = http.createServer((req, res) => {
   
   const data = {
     data: `hello-world`,
-    hostname: require("os").hostname()
+    hostname: require("os").hostname(),
+    test: 'test'
   }
 
   res.writeHead(200, { "Content-Type": "application/json" })
